@@ -3,6 +3,7 @@ var numeroDue = parseInt(prompt('Inserisci qui il tuo secondo numero'));
 
 if (numeroUno > numeroDue) {
   console.log(numeroUno);
+<<<<<<< HEAD
   var winner = numeroUno
 } else if (numeroUno < numeroDue) {
   console.log(numeroDue);
@@ -12,3 +13,10 @@ if (numeroUno > numeroDue) {
 }
 
 document.getElementById('winner').innerHTML = 'Il numero più grande inserito è ' + winner
+=======
+} else if (numeroUno < numeroDue) {
+  console.log(numeroDue);
+} else {
+  console.log('uguali');
+}
+>>>>>>> master
